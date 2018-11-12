@@ -26,16 +26,18 @@ const StyledCardContainer = styled.div`
 class GoalCard extends Component {
   render() {
     return (
-      <StyledCardContainer>
-        <Card>
-          <StyledCardMedia image={this.props.image} title={this.props.title} />
-          <CardContent>
-            <Typography variant="headline" component="h2">
-              {this.props.content}
-            </Typography>
-          </CardContent>
-        </Card>
-      </StyledCardContainer>
+      <a href={this.props.link}>
+        <StyledCardContainer>
+          <Card>
+            <StyledCardMedia image={this.props.image} />
+            <CardContent>
+              <Typography variant="headline" component="h2">
+                {this.props.content}
+              </Typography>
+            </CardContent>
+          </Card>
+        </StyledCardContainer>
+      </a>
     );
   }
 }
@@ -43,7 +45,7 @@ class GoalCard extends Component {
 GoalCard.propTypes = {
   content: PropTypes.string,
   image: PropTypes.string,
-  title: PropTypes.string
+  link: PropTypes.string
 };
 
 export default GoalCard;

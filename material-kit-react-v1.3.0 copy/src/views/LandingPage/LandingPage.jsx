@@ -5,7 +5,7 @@ import classNames from "classnames";
 import withStyles from "@material-ui/core/styles/withStyles";
 import styled from "styled-components";
 // @material-ui/icons
-
+import Logo from "assets/img/logo.png";
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
@@ -19,10 +19,12 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
-import TeamSection from "./Sections/TeamSection.jsx";
-import WorkSection from "./Sections/WorkSection.jsx";
 
 const dashboardRoutes = [];
+
+const LogoContainer = styled.img`
+  padding-right: 10px;
+`;
 
 class LandingPage extends React.Component {
   render() {
@@ -44,6 +46,8 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={8}>
+                
+                  <LogoContainer src={Logo} alt="" />
                 <h1 className={classes.title}>1st Phorm</h1>
                 <h4>
                   It is up to you to take steps against the grain, against all
