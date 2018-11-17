@@ -46,8 +46,7 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={8}>
-                
-                  <LogoContainer src={Logo} alt="" />
+                <LogoContainer src={Logo} alt="" />
                 <h1 className={classes.title}>1st Phorm</h1>
                 <h4>
                   It is up to you to take steps against the grain, against all
@@ -60,7 +59,7 @@ class LandingPage extends React.Component {
                 <Button
                   color="mainButton"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="https://1stphorm.com/molson303"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
