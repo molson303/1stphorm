@@ -1,4 +1,3 @@
-// import Components from "views/Components/Components.jsx";
 import LandingPage from "../views/LandingPage/LandingPage.jsx";
 
 var indexRoutes = [{ path: "/", name: "LandingPage", component: LandingPage }];

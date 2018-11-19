@@ -30,18 +30,7 @@ class LandingPage extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
-      <div>
-        <Header
-          color="transparent"
-          routes={dashboardRoutes}
-          rightLinks={<HeaderLinks />}
-          fixed
-          changeColorOnScroll={{
-            height: 300,
-            color: "dark"
-          }}
-          {...rest}
-        />
+      <React.Fragment>
         <Parallax filter image={require("../../assets/img/workout2.jpg")}>
           <div className={classes.container}>
             <GridContainer>
@@ -70,13 +59,13 @@ class LandingPage extends React.Component {
             </GridContainer>
           </div>
         </Parallax>
-        <div className={classNames(classes.main, classes.mainRaised)}>
+        <div className={classNames(classes.main)}>
           <div className={classes.container}>
             <ProductSection />
           </div>
         </div>
         <Footer />
-      </div>
+      </React.Fragment>
     );
   }
 }

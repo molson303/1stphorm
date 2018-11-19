@@ -6,12 +6,12 @@ import PropTypes from "prop-types";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import IconButton from "@material-ui/core/IconButton";
+// import Toolbar from "@material-ui/core/Toolbar";
+// import IconButton from "@material-ui/core/IconButton";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
-import Menu from "@material-ui/icons/Menu";
+// import Menu from "@material-ui/icons/Menu";
 // core components
 import headerStyle from "../../assets/jss/material-kit-react/components/headerStyle.jsx";
 
@@ -71,33 +71,9 @@ class Header extends React.Component {
       [classes.absolute]: absolute,
       [classes.fixed]: fixed
     });
-    const brandComponent = <img href="" />;
+    
     return (
       <AppBar className={appBarClasses}>
-        {/* <Toolbar className={classes.container}>
-          {leftLinks !== undefined ? brandComponent : null}
-          <div className={classes.flex}>
-            {leftLinks !== undefined ? (
-              <Hidden smDown implementation="css">
-                {leftLinks}
-              </Hidden>
-            ) : (
-              brandComponent
-            )}
-          </div>
-          <Hidden smDown implementation="css">
-            {rightLinks}
-          </Hidden>
-          <Hidden mdUp>
-            <IconButton
-              color="inherit"
-              aria-label="open drawer"
-              onClick={this.handleDrawerToggle}
-            >
-              <Menu />
-            </IconButton>
-          </Hidden>
-        </Toolbar> */}
         <Hidden mdUp implementation="css">
           <Drawer
             variant="temporary"

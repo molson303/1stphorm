@@ -11,7 +11,7 @@ import styled from "styled-components";
 
 const StyledGridContainer = styled(GridContainer)`
   && {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 `;
 
