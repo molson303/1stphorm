@@ -38,7 +38,7 @@ class LandingPage extends React.Component {
                 <LogoContainer src={Logo} alt="" />
                 <h1 className={classes.title}>1st Phorm</h1>
                 <h2>
-                  110% Guarantee. Highest Quality Supplements. Free Shipping.
+                  110% Guarantee. Highest Quality Supplements. Free Shipping.jh dfdsuhf dsiouhf
                 </h2>
                 <br />
                 <Button
