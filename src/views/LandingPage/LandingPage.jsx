@@ -37,13 +37,9 @@ class LandingPage extends React.Component {
               <GridItem xs={12} sm={12} md={8}>
                 <LogoContainer src={Logo} alt="" />
                 <h1 className={classes.title}>1st Phorm</h1>
-                <h4>
-                  It is up to you to take steps against the grain, against all
-                  odds, against all negative influences, against all the
-                  nonbelievers and move forward daily with all of your heart. It
-                  is up to you to believe in yourself. It’s up to you to have
-                  the courage to be the best. It is up to you to Never Settle.
-                </h4>
+                <h2>
+                  110% Guarantee. Highest Quality Supplements. Free Shipping.
+                </h2>
                 <br />
                 <Button
                   color="mainButton"

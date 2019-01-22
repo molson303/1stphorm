@@ -30,7 +30,7 @@ class ProductSection extends React.Component {
             <h2 className={classes.title}>EXPLORE BY GOALS</h2>
             <h5 className={classes.description}>
               1st Phorm was founded on quality, built on service, and measured
-              on results. We're not the cheapest ... but we are the best.
+              on results. Try us once and you will never go back.
             </h5>
           </GridItem>
         </GridContainer>
